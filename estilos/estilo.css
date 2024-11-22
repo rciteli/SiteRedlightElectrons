@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Orbitron', sans-serif; /* Títulos futuristas */
-    background-color: #2c0023e5; /* Roxo */
+    background-color: rgba(97, 0, 14, 255);
     color: #fff;
     line-height: 1.6;
 }
@@ -239,7 +239,15 @@ nav .social-icons a img{
     }
 }
 
-iframe{
-    
+.spotifySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajuste se necessário */
 }
 
+.spotifyCard {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
