@@ -6,23 +6,26 @@
 }
 
 body {
-    font-family: 'Orbitron', sans-serif; /* Títulos futuristas */
+    font-family: 'Orbitron', sans-serif;
+    /* Títulos futuristas */
     background-color: rgba(97, 0, 14, 255);
     color: #fff;
     line-height: 1.6;
 }
 
-h1, h2, h3 {
-    font-family: 'Orbitron', sans-serif; /* Títulos futuristas */
+h1,
+h2,
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    /* Títulos futuristas */
 }
 
 header {
     padding: 20px;
-    position: absolute; /* Para destacar o header */
+    position: absolute;
+    /* Para destacar o header */
     width: 97%;
     z-index: 10;
-    margin: 20px;
-    border-radius: 20px;
 }
 
 nav {
@@ -35,28 +38,38 @@ nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
-    text-shadow: 0 0 5px #42d0fc, /* Neon turquesa próximo */
-                 0 0 10px #40e0d0, /* Neon turquesa médio */
-                 0 0 20px #40e0d0, /* Neon turquesa forte */
-                 0 0 30px #76f7e5, /* Neon turquesa extra brilhante */
-                 0 0 40px #76f7e5, 
-                 0 0 50px #b8fff9;
-    animation: neon-glow 2s infinite alternate; /* Chama a animação */
+    text-shadow: 0 0 5px #42d0fc,
+        /* Neon turquesa próximo */
+        0 0 10px #40e0d0,
+        /* Neon turquesa médio */
+        0 0 20px #40e0d0,
+        /* Neon turquesa forte */
+        0 0 30px #76f7e5,
+        /* Neon turquesa extra brilhante */
+        0 0 40px #76f7e5,
+        0 0 50px #b8fff9;
+    animation: neon-glow 2s infinite alternate;
+    /* Chama a animação */
 }
 
 nav .social-icons a {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem; /* Tamanho maior para destaque */
+    font-size: 1.5rem;
+    /* Tamanho maior para destaque */
     display: inline-block;
-    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave */
+    transition: transform 0.3s ease, color 0.3s ease;
+    /* Transição suave */
+    
 }
 
 /* Animação ao passar o mouse */
 nav .social-icons a:hover {
-    transform: scale(1.2) rotate(10deg); /* Aumenta o tamanho e aplica rotação */
-    color: #40e0d0; /* Troca para azul turquesa claro */
+    transform: scale(1.2) rotate(10deg);
+    /* Aumenta o tamanho e aplica rotação */
+    color: #40e0d0;
+    /* Troca para azul turquesa claro */
 }
 
 /* Efeito contínuo de pulsação (opcional) */
@@ -64,17 +77,21 @@ nav .social-icons a {
     animation: pulse 2s infinite ease-in-out;
 }
 
-nav .social-icons a img{
-    width: 30px; /* A imagem ocupa toda a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+nav .social-icons a img {
+    width: 30px;
+    /* A imagem ocupa toda a largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
 
 .carousel {
     width: 100%;
-    height: 300px; /* Altura fixa */
+    height: 300px;
+    /* Altura fixa */
     overflow: hidden;
     position: relative;
-    margin-top: 0; /* Remove qualquer espaço extra acima do banner */
+    margin-top: 0;
+    /* Remove qualquer espaço extra acima do banner */
     z-index: 5;
 }
 
@@ -85,8 +102,10 @@ nav .social-icons a img{
 
 .carousel img {
     width: 100%;
-    height: 300px; /* Mesma altura definida para o banner */
-    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    height: 300px;
+    /* Mesma altura definida para o banner */
+    object-fit: cover;
+    /* Garante que a imagem se ajuste sem distorcer */
 }
 
 .albums {
@@ -96,33 +115,51 @@ nav .social-icons a img{
 
 .albums h2 {
     margin-bottom: 30px;
-    color: #fff; /* Cor base do texto */
-    font-size: 2.5rem; /* Tamanho do texto */
-    text-align: center; /* Centraliza o título */
-    text-shadow: 0 0 5px #42d0fc, /* Neon turquesa próximo */
-                 0 0 10px #40e0d0, /* Neon turquesa médio */
-                 0 0 20px #40e0d0, /* Neon turquesa forte */
-                 0 0 30px #76f7e5, /* Neon turquesa extra brilhante */
-                 0 0 40px #76f7e5, 
-                 0 0 50px #b8fff9;
-    font-weight: bold; /* Negrito para destacar */
-    padding: 10px 20px; /* Espaçamento interno para realce */
-    border-radius: 10px; /* Bordas arredondadas */
-    display: inline-block; /* Garante que o fundo siga o tamanho do texto */
-    animation: neon-glow 1s infinite alternate; /* Chama a animação */
+    color: #fff;
+    /* Cor base do texto */
+    font-size: 2.5rem;
+    /* Tamanho do texto */
+    text-align: center;
+    /* Centraliza o título */
+    text-shadow: 0 0 5px #42d0fc,
+        /* Neon turquesa próximo */
+        0 0 10px #40e0d0,
+        /* Neon turquesa médio */
+        0 0 20px #40e0d0,
+        /* Neon turquesa forte */
+        0 0 30px #76f7e5,
+        /* Neon turquesa extra brilhante */
+        0 0 40px #76f7e5,
+        0 0 50px #b8fff9;
+    font-weight: bold;
+    /* Negrito para destacar */
+    padding: 10px 20px;
+    /* Espaçamento interno para realce */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    display: inline-block;
+    /* Garante que o fundo siga o tamanho do texto */
+    animation: neon-glow 1s infinite alternate;
+    /* Chama a animação */
 }
 
 .album-container {
-    display: flex; /* Alinha os elementos horizontalmente */
-    flex-direction: row; /* Mantém a direção horizontal */
-    gap: 20px; /* Espaçamento entre as caixas */
-    align-items: center; /* Alinha os itens no topo */
-    justify-content: center; /* Mantém os itens alinhados à esquerda */
+    display: flex;
+    /* Alinha os elementos horizontalmente */
+    flex-direction: row;
+    /* Mantém a direção horizontal */
+    gap: 20px;
+    /* Espaçamento entre as caixas */
+    align-items: center;
+    /* Alinha os itens no topo */
+    justify-content: center;
+    /* Mantém os itens alinhados à esquerda */
 }
 
 /* Estilo padrão dos cards */
 .img-container {
-    flex: 0 0 auto; /* Mantém o tamanho fixo */
+    flex: 0 0 auto;
+    /* Mantém o tamanho fixo */
     text-align: center;
     width: 350px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -131,25 +168,59 @@ nav .social-icons a img{
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer; /* Adiciona o ícone de mão ao passar o mouse */
+    cursor: pointer;
+    /* Adiciona o ícone de mão ao passar o mouse */
+}
+
+.img-container a {
+    margin-bottom: 30px;
+    color: #fff;
+    /* Cor base do texto */
+    text-align: center;
+    /* Centraliza o título */
+    text-shadow: 0 0 5px #42d0fc,
+        /* Neon turquesa próximo */
+        0 0 10px #40e0d0,
+        /* Neon turquesa médio */
+        0 0 20px #40e0d0,
+        /* Neon turquesa forte */
+        0 0 30px #76f7e5,
+        /* Neon turquesa extra brilhante */
+        0 0 40px #76f7e5,
+        0 0 50px #b8fff9;
+    font-weight: bold;
+    /* Negrito para destacar */
+    padding: 10px 20px;
+    /* Espaçamento interno para realce */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    display: inline-block;
+    /* Garante que o fundo siga o tamanho do texto */
+    animation: neon-glow 1s infinite alternate;
+    /* Chama a animação */
 }
 
 /* Interatividade no hover */
 .img-container:hover {
-    transform: scale(1.05); /* Aumenta o tamanho do card */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra mais forte */
-    background-color: rgba(255, 255, 255, 0.2); /* Torna o fundo mais brilhante */
+    transform: scale(1.05);
+    /* Aumenta o tamanho do card */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    /* Adiciona uma sombra mais forte */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Torna o fundo mais brilhante */
 }
 
 /* Efeito na imagem ao passar o mouse */
 .img-container img {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease; /* Transição suave para zoom */
+    transition: transform 0.3s ease;
+    /* Transição suave para zoom */
 }
 
 .img-container:hover img {
-    transform: scale(1.1); /* Aplica um zoom na imagem */
+    transform: scale(1.1);
+    /* Aplica um zoom na imagem */
 }
 
 .contacts {
@@ -157,7 +228,7 @@ nav .social-icons a img{
     margin: 20px;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(12, 0, 0, 0.486); 
+    background-color: rgba(12, 0, 0, 0.486);
 }
 
 .contacts h2 {
@@ -171,22 +242,26 @@ nav .social-icons a img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(17, 0, 13, 0.158); 
+    background-color: rgba(17, 0, 13, 0.158);
 }
 
 .footer .social-icons a {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem; /* Tamanho maior para destaque */
+    font-size: 1.5rem;
+    /* Tamanho maior para destaque */
     display: inline-block;
-    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave */    
+    transition: transform 0.3s ease, color 0.3s ease;
+    /* Transição suave */
 }
 
 /* Animação ao passar o mouse */
 .footer .social-icons a:hover {
-    transform: scale(1.2) rotate(10deg); /* Aumenta o tamanho e aplica rotação */
-    color: #40e0d0; /* Troca para azul turquesa claro */
+    transform: scale(1.2) rotate(10deg);
+    /* Aumenta o tamanho e aplica rotação */
+    color: #40e0d0;
+    /* Troca para azul turquesa claro */
 }
 
 /* Efeito contínuo de pulsação (opcional) */
@@ -196,52 +271,61 @@ nav .social-icons a img{
 
 /* Definindo a animação de pulsação */
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
 }
 
-.footer .social-icons a img{
-    width: 30px; /* A imagem ocupa toda a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+.footer .social-icons a img {
+    width: 30px;
+    /* A imagem ocupa toda a largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
 
 /* Definindo a animação neon */
 @keyframes neon-glow {
     0% {
-        text-shadow: 0 0 5px #40e0d0, 
-                     0 0 10px #40e0d0, 
-                     0 0 20px #40e0d0, 
-                     0 0 30px #76f7e5, 
-                     0 0 40px #76f7e5, 
-                     0 0 50px #b8fff9;
+        text-shadow: 0 0 5px #40e0d0,
+            0 0 10px #40e0d0,
+            0 0 20px #40e0d0,
+            0 0 30px #76f7e5,
+            0 0 40px #76f7e5,
+            0 0 50px #b8fff9;
     }
+
     50% {
-        text-shadow: 0 0 10px #40e0d0, 
-                     0 0 20px #40e0d0, 
-                     0 0 30px #76f7e5, 
-                     0 0 40px #76f7e5, 
-                     0 0 50px #b8fff9, 
-                     0 0 60px #b8fff9;
+        text-shadow: 0 0 10px #40e0d0,
+            0 0 20px #40e0d0,
+            0 0 30px #76f7e5,
+            0 0 40px #76f7e5,
+            0 0 50px #b8fff9,
+            0 0 60px #b8fff9;
     }
+
     100% {
-        text-shadow: 0 0 5px #40e0d0, 
-                     0 0 15px #76f7e5, 
-                     0 0 30px #76f7e5, 
-                     0 0 45px #b8fff9, 
-                     0 0 60px #b8fff9, 
-                     0 0 70px #b8fff9;
+        text-shadow: 0 0 5px #40e0d0,
+            0 0 15px #76f7e5,
+            0 0 30px #76f7e5,
+            0 0 45px #b8fff9,
+            0 0 60px #b8fff9,
+            0 0 70px #b8fff9;
     }
 }
 
 /* Ajustes gerais */
 .spotifyCard iframe {
     width: 100%;
-    height: 80vh; /* Altura proporcional à viewport */
-    max-height: 400px; /* Define um limite máximo de altura */
+    height: 80vh;
+    /* Altura proporcional à viewport */
+    max-height: 400px;
+    /* Define um limite máximo de altura */
     border-radius: 12px;
 }
 
@@ -250,7 +334,8 @@ nav .social-icons a img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Ajuste se necessário */
+    height: 50vh;
+    /* Ajuste se necessário */
 }
 
 .spotifyCard {
@@ -264,12 +349,15 @@ nav .social-icons a img{
     body {
         font-size: 1.2rem;
     }
+
     .carousel {
         height: 250px;
     }
+
     .img-container {
         width: 300px;
     }
+
     .spotifyCard iframe {
         height: 45vh;
     }
@@ -280,12 +368,15 @@ nav .social-icons a img{
     body {
         font-size: 1.1rem;
     }
+
     .carousel {
         height: 220px;
     }
+
     .img-container {
-        width: 280px;
+        width: 500px;
     }
+
     .spotifyCard iframe {
         height: 40vh;
     }
@@ -296,16 +387,20 @@ nav .social-icons a img{
     body {
         font-size: 1rem;
     }
+
     .carousel {
         height: 200px;
     }
+
     .album-container {
         flex-direction: row;
         gap: 15px;
     }
+
     .img-container {
         width: 250px;
     }
+
     .spotifyCard iframe {
         height: 35vh;
     }
@@ -316,19 +411,24 @@ nav .social-icons a img{
     body {
         font-size: 0.9rem;
     }
+
     nav .logo {
         font-size: 1.2rem;
     }
+
     .carousel {
         height: 180px;
     }
+
     .img-container {
-        width: 200px;
+        width: 400px;
     }
+
     .album-container {
         flex-wrap: wrap;
         gap: 10px;
     }
+
     .spotifyCard iframe {
         height: 30vh;
     }
@@ -339,65 +439,200 @@ nav .social-icons a img{
     body {
         font-size: 0.85rem;
     }
+
     nav {
         flex-direction: column;
     }
+
     nav .logo {
         font-size: 1rem;
         margin-bottom: 10px;
     }
+
     .carousel {
         height: 150px;
     }
+
     .img-container {
-        width: 180px;
+        width: 320px;
     }
+
     .spotifyCard iframe {
-        height: 25vh;
+        height: 50vh;
     }
 }
 
-/* Entre 600px e 300px */
-@media (max-width: 600px) and (min-width: 301px) {
+/* Entre 600px e 451px */
+@media (max-width: 600px) and (min-width: 451px) {
     body {
         font-size: 0.8rem;
     }
+
     nav {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .carousel {
         height: 120px;
     }
+
     .img-container {
-        width: 150px;
+        width: 250px;
     }
+
     .footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    .spotifyCard iframe {
-        height: 20vh;
+
+    .spotifyCard {
+        display: flex;
+        /* Alinha os elementos horizontalmente */
+        flex-direction: row;
+        /* Mantém a direção horizontal */
+        gap: 20px;
+        /* Espaçamento entre as caixas */
+        align-items: center;
+        /* Alinha os itens no topo */
+        justify-content: center;
     }
 
+    .spotifyCard iframe {
+        height: 40vh;
+        width: 80vw;
+    }
+
+}
+
+@media (max-width: 450px) and (min-width: 391px) {
+    body {
+        font-size: 0.6rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    nav .logo {
+        font-size: 0.8rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carousel {
+        height: 120px;
+        width: 100%;
+    }
+
+    .img-container {
+        width: 200px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .spotifyCard {
+        display: flex;
+        /* Alinha os elementos horizontalmente */
+        flex-direction: row;
+        /* Mantém a direção horizontal */
+        gap: 20px;
+        /* Espaçamento entre as caixas */
+        align-items: center;
+        /* Alinha os itens no topo */
+        justify-content: center;
+    }
+
+    .spotifyCard iframe {
+        height: 40vh;
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 390px) and (min-width: 301px) {
+    body {
+        font-size: 0.6rem;
+    }
+    .carousel {
+        width: 100%;
+        height: 300px;
+        /* Altura fixa */
+        overflow: hidden;
+        position: relative;
+        margin-top: 0;
+        /* Remove qualquer espaço extra acima do banner */
+        z-index: 5;
+    }
+    
+    .carousel-slides {
+        display: flex;
+        width: 100%;
+    }
+    
+    .carousel img {
+        width: 100%;
+        height: 300px;
+        /* Mesma altura definida para o banner */
+        object-fit:cover;
+        /* Garante que a imagem se ajuste sem distorcer */
+    }
+    .spotifyCard {
+        display: flex;
+        /* Alinha os elementos horizontalmente */
+        flex-direction: row;
+        /* Mantém a direção horizontal */
+        gap: 20px;
+        /* Espaçamento entre as caixas */
+        align-items: center;
+        /* Alinha os itens no topo */
+        justify-content: center;
+    }
+    .spotifyCard iframe {
+        height: 30vh;
+        width: 100vw;
+    }
 }
 
 /* Até 300px */
 @media (max-width: 300px) {
     body {
-        font-size: 0.75rem;
+        font-size: 0.6rem;
     }
+
     nav .logo {
         font-size: 0.8rem;
     }
+
     .carousel {
         height: 100px;
     }
+
     .img-container {
         width: 120px;
     }
+
+    .spotifyCard {
+        display: flex;
+        /* Alinha os elementos horizontalmente */
+        flex-direction: row;
+        /* Mantém a direção horizontal */
+        gap: 20px;
+        /* Espaçamento entre as caixas */
+        align-items: center;
+        /* Alinha os itens no topo */
+        justify-content: center;
+    }
+
     .spotifyCard iframe {
-        height: 50vh;
+        height: 20vh;
+        width: 80vw;
     }
 }
